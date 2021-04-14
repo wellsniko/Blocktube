@@ -8,7 +8,7 @@ The site requires a MetaMask Wallet running on the Ropsten Test Network to view 
 All uploaded video files are stored on The InterPlanetary File System (IPFS), a protocol and peer-to-peer network for storing and sharing data in a distributed file system. IPFS is built around a decentralized system of user-operators who hold a portion of the overall data, creating a resilient system of file storage and sharing.
 
 
-<img src="src/blocktube_sc?raw=true" width="1000">
+<img src="src/blocktube_sc.png" width="1000">
 
 
 To get test ETH from a Ropsten Faucet, try the following links:
