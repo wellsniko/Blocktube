@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Blocktube/static/css/main.65938976.chunk.css",
+    "main.js": "/Blocktube/static/js/main.0fe558c1.chunk.js",
+    "main.js.map": "/Blocktube/static/js/main.0fe558c1.chunk.js.map",
+    "runtime-main.js": "/Blocktube/static/js/runtime-main.487bcbc8.js",
+    "runtime-main.js.map": "/Blocktube/static/js/runtime-main.487bcbc8.js.map",
+    "static/css/2.80dce9aa.chunk.css": "/Blocktube/static/css/2.80dce9aa.chunk.css",
+    "static/js/2.6f7921cb.chunk.js": "/Blocktube/static/js/2.6f7921cb.chunk.js",
+    "static/js/2.6f7921cb.chunk.js.map": "/Blocktube/static/js/2.6f7921cb.chunk.js.map",
+    "index.html": "/Blocktube/index.html",
+    "precache-manifest.86649038271593f82cadce94e648a695.js": "/Blocktube/precache-manifest.86649038271593f82cadce94e648a695.js",
+    "service-worker.js": "/Blocktube/service-worker.js",
+    "static/css/2.80dce9aa.chunk.css.map": "/Blocktube/static/css/2.80dce9aa.chunk.css.map",
+    "static/css/main.65938976.chunk.css.map": "/Blocktube/static/css/main.65938976.chunk.css.map",
+    "static/js/2.6f7921cb.chunk.js.LICENSE.txt": "/Blocktube/static/js/2.6f7921cb.chunk.js.LICENSE.txt",
+    "static/media/blocktube.png": "/Blocktube/static/media/blocktube.9e02a88e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.487bcbc8.js",
+    "static/css/2.80dce9aa.chunk.css",
+    "static/js/2.6f7921cb.chunk.js",
+    "static/css/main.65938976.chunk.css",
+    "static/js/main.0fe558c1.chunk.js"
+  ]
+}
