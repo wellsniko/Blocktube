@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Decentralized Youtube",
   "author": "wellsniko",
-  "homepage": ".",
+  "homepage": "https://wellsniko.github.io/Blocktube/",
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.2.6",
     "babel-polyfill": "6.26.0",
@@ -17,6 +17,7 @@
     "chai-as-promised": "7.1.1",
     "chai-bignumber": "3.0.0",
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "identicon.js": "^2.3.3",
     "ipfs-http-client": "^33.1.1",
     "react": "^16.13.1",
