@@ -16,8 +16,6 @@ test
 # production
 /build
 
-src/abis
-src/components
 
 # misc
 .DS_Store
