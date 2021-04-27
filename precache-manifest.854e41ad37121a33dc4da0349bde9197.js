@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "175c9202e800da72439cf0e3bb83cda1",
+    "revision": "b0679d9d16548290bda6838afd2f531e",
     "url": "/Blocktube/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Blocktube/static/css/2.80dce9aa.chunk.css"
   },
   {
-    "revision": "b9ffa745785788544b70",
+    "revision": "debba1ce5c39db5cfb54",
     "url": "/Blocktube/static/css/main.65938976.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Blocktube/static/js/2.6f7921cb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b9ffa745785788544b70",
-    "url": "/Blocktube/static/js/main.0fe558c1.chunk.js"
+    "revision": "debba1ce5c39db5cfb54",
+    "url": "/Blocktube/static/js/main.2d0e7217.chunk.js"
   },
   {
     "revision": "a6ecd885b844596b14b2",

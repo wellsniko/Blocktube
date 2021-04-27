@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Blocktube/precache-manifest.86649038271593f82cadce94e648a695.js"
+  "/Blocktube/precache-manifest.854e41ad37121a33dc4da0349bde9197.js"
 );
 
 self.addEventListener('message', (event) => {
