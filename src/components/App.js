@@ -22,7 +22,7 @@ class App extends React.Component {
     } else if (window.web3) {
       window.web3 = new Web3(window.web3.currentProvider)
     } else {
-      window.alert('Non-Ethereum browser detected. You should consider using MetaMask.')
+      window.alert('Non-Ethereum browser detected. You need MetaMask to access Blocktube.')
     }
   }
 
@@ -53,7 +53,7 @@ class App extends React.Component {
       })
       this.setState({ loading: false})
     } else {
-      window.alert('Blocktube contract not deployed to detected network.')
+      window.alert('Blocktube contract not deployed to detected network. Please switch your MetaMask to Ropsten Test Network')
     }
   }
 
@@ -80,9 +80,9 @@ class App extends React.Component {
         return
       }
 
-      this.setState({ loading: true })
+      this.setState({ loading: "uploading" })
       this.state.blocktube.methods.uploadVideo(result[0].hash, title).send({ from: this.state.account }).on('transactionHash', (hash) => {
-        this.setState({ loading: false })
+        setTimeout(this.setState({ loading: false }), 4000)
       })
     })
   }
@@ -100,7 +100,7 @@ class App extends React.Component {
       account: '',
       blocktube: null,
       videos: [],
-      loading: true,
+      loading: "loading",
       currentHash: null,
       currentTitle: null,
       currentAuthor: null
@@ -117,8 +117,10 @@ class App extends React.Component {
         <Navbar 
           account={this.state.account}
         />
-        { this.state.loading
-          ? <div id="loader" className="text-center mt-5"><p>Loading... Pleaes note that videos can take up to 2 minutes to finish uploading.</p></div>
+        { this.state.loading === "loading"
+          ? <div id="loader" className="text-center mt-5"><p>Loading... </p></div> 
+          : this.state.loading === "uploading" 
+          ? <div id="loader" className="text-center mt-5"><p>Loading... <br/>Uploaded videos can take up to 2 minutes to appear on Blocktube </p></div> 
           : <Main
               videos={this.state.videos}
               uploadVideo={this.uploadVideo}
